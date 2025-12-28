@@ -98,7 +98,7 @@
 				if(target.ground && target.state != ST_KNUXSLIDE)
 				{
 					//Ease down the camera offset
-					ground_offset = ground_offset - ground_offset / 8;
+					ground_offset = ground_offset - (sign(ground_offset)*4);
 					
 					//Scroll camera upwards
 					if(target.y < target_y - ground_offset+roll_offset) 

@@ -7,7 +7,15 @@ function player_control(){
 	if(ground)
 	{
 		//Slope influence
-		if(abs(ground_speed) > 0.125 || control_lock > 0) ground_speed -= 0.125*dsin(ground_angle);
+		var downhill = (sign(ground_speed) = sign(dsin(ground_angle)));
+		//show_debug_message(string(downhill))
+		var influences = (ground_angle >= 70 && ground_angle <= 110);
+		if (!downhill) influences = false;
+		if (control_lock > 0) influences = true;
+		//influences = true; 
+		if influences {
+			ground_speed -= 0.125*dsin(ground_angle); //abs(ground_speed) > 0.125 ||
+		}
 		
 		//Move to the left:
 		if (movement = -1 && control_lock = 0)

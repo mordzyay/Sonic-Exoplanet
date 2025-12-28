@@ -2,7 +2,7 @@
 	//Object values:
 	object_list = [obj_ring, obj_monitor, obj_spring_vertical, obj_spring_horizontal, obj_spring_diagonal, obj_spikes_vertical, obj_spikes_horizontal, obj_checkpoint, obj_battery_ring, obj_solid_object, obj_signpost, obj_capsule, obj_flicky, obj_player];
 	object_select = 0;
-	debug = false;
+	debug = true;
 	show_collision = false;
 	show_hitbox = false;
 	show_player = false;
