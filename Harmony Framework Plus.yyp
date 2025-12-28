@@ -339,6 +339,7 @@
     {"id":{"name":"bgm_arboreal_agate1","path":"sounds/bgm_arboreal_agate1/bgm_arboreal_agate1.yy",},},
     {"id":{"name":"bgm_arboreal_agate2","path":"sounds/bgm_arboreal_agate2/bgm_arboreal_agate2.yy",},},
     {"id":{"name":"bgm_menu","path":"sounds/bgm_menu/bgm_menu.yy",},},
+    {"id":{"name":"bgm_miracleblue","path":"sounds/bgm_miracleblue/bgm_miracleblue.yy",},},
     {"id":{"name":"bgm_test1","path":"sounds/bgm_test1/bgm_test1.yy",},},
     {"id":{"name":"bgm_trackermenu","path":"sounds/bgm_trackermenu/bgm_trackermenu.yy",},},
     {"id":{"name":"j_drowning","path":"sounds/j_drowning/j_drowning.yy",},},
