@@ -4,12 +4,12 @@
 	sound_sel = 0;
 	
 	//The lists
-	zone_list = [["ARBOREAL AGATE", rm_arboreal_agate1, rm_arboreal_agate2]];
+	zone_list = [["ARBOREAL AGATE", rm_arboreal_agate1, rm_arboreal_agate2], ["TEST", rm_test1]];
 	
 	reset_stage_data();
 	global.score = 0;
 
-	quotes = ["WELCOME TO HARMONY FRAMEWORK!"];
+	quotes = ["THAT ONE SILLY EXOPLANET", "I THINK I SAW A CHICKEN TODAY", "MARIO"];
 	
 	quote_index = irandom(array_length(quotes)-1);
 	
@@ -23,5 +23,5 @@
 	//Create stage data
 	for (var i = 0; i < 128; ++i) 
 	{
-	    deform_data[i] = 12 * dsin((360 / 128) * i);
+	    deform_data[i] = 12 * dsin((360 / 128) * i)+random_range(-3, 3);
 	}

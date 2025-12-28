@@ -17,7 +17,7 @@
 		{
 			var size;
 			size = string_width(string_copy(DevText, 0, i));
-			draw_text(floor(((global.window_width/2)-string_width(DevText)/2)+size), floor((global.window_height/2)-96+(8*dsin((current_time/3)+24*i))), string_char_at(DevText , i+1));
+			draw_text(floor(((global.window_width/2)-string_width(DevText)/2)+size), floor((global.window_height/2)-96-abs(8*dsin((current_time/3)+24*i))), string_char_at(DevText , i+1));
 		}
 			
 	//Change the text alingment
