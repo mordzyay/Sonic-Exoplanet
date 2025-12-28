@@ -9,7 +9,7 @@
 	reset_stage_data();
 	global.score = 0;
 
-	quotes = ["THAT ONE SILLY EXOPLANET", "I THINK I SAW A CHICKEN TODAY", "MARIO"];
+	quotes = ["IM TRAPPED IN MORS CODE HELP", "THAT ONE SILLY EXOPLANET", "I THINK I SAW A CHICKEN TODAY", "MARIO", "MOR IS SIGMA"];
 	
 	quote_index = irandom(array_length(quotes)-1);
 	
