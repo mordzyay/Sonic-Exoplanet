@@ -2,6 +2,8 @@ function init_music_list()
 {
 	//Menu background music:
 	music_add(BGM_MENU, bgm_trackermenu, 0.565);
+	music_add(BGM_SCARY, bgm_scary ,0.00,0.00,false);
+	music_add(BGM_JOLLY, bgm_jolly ,0.00,0.00,false);
 	
 	//Stage background music:
 	music_add(BGM_ARBOREAL_1, bgm_arboreal_agate1);
@@ -24,3 +26,5 @@ function init_music_list()
 	#macro BGM_ARBOREAL_1 5
 	#macro BGM_ARBOREAL_2 6
 	#macro BGM_TEST_1 7
+	#macro BGM_SCARY 8
+	#macro BGM_JOLLY 9
