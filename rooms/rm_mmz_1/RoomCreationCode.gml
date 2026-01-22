@@ -2,10 +2,10 @@
 		with(obj_level)
 	{
 		//Set stage music and loop points
-		stage_music = BGM_TEST_1;
+		stage_music = BGM_MMZ_P;
 		
 		//Set level name
-		stage_name = "MINTY MOUNTAIN";
+		stage_name = "EXOPLANET TEST";
 		
 		//Set stage act
 		act = 1;
