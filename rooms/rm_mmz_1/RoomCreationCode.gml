@@ -5,7 +5,7 @@
 		stage_music = BGM_MMZ_P;
 		
 		//Set level name
-		stage_name = "EXOPLANET TEST";
+		stage_name = "MINTY MOUTAIN";
 		
 		//Set stage act
 		act = 1;

@@ -15,7 +15,7 @@
   "name":"bgm_arboreal_agate2",
   "parent":{
     "name":"Stage Music",
-    "path":"folders/Sounds/Music/Stage Music.yy",
+    "path":"folders/Sounds/Music/Menu Music/Stage Music.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
