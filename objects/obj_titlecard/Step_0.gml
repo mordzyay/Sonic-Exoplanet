@@ -1,4 +1,8 @@
 /// @description Card events
+if(!variable_global_exists("timetravelingTo"))
+{
+	global.timetravelingTo = "";	
+}
 if(global.timetravelingTo = "")
 {
 	obj_player.input_disable = true

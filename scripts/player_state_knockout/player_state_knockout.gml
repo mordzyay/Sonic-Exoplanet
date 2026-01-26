@@ -56,12 +56,12 @@ function player_state_knockout(){
 			{
 				if(global.life != 0 || !is_time_over)
 				{
-					global.life -= 1;
+					if (obj_level.challenge == false) global.life -= 1;
 					if(global.life != 0 && !is_time_over)
 					{
 						obj_fade.fade_speed = 3;
 						obj_fade.fade_type = FADE_OUT;
-						music_set_fade(FADE_OUT, 2);
+						if (obj_level.challenge == false) music_set_fade(FADE_OUT, 2);
 					}
 				}
 			}
@@ -71,11 +71,13 @@ function player_state_knockout(){
 			{
 				if(global.life = 0 || is_time_over)
 				{
-					music_set_fade(FADE_OUT, 2);
-					if(!instance_exists(obj_game_over))	
-					{
-						var a = instance_create_layer(0, 0, "Utilities", obj_game_over);
-						if(global.life = 0)a.type = 0; else a.type = 1;
+					if obj_level.challenge == false {
+						music_set_fade(FADE_OUT, 2);
+						if(!instance_exists(obj_game_over))	
+						{
+							var a = instance_create_layer(0, 0, "Utilities", obj_game_over);
+							if(global.life = 0)a.type = 0; else a.type = 1;
+						}	
 					}
 				}
 			}

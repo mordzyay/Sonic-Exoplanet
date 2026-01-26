@@ -1333,8 +1333,8 @@
   ],
   "name":"rm_mmz_B",
   "parent":{
-    "name":"Arboreal Agate",
-    "path":"folders/Rooms/Stages/Arboreal Agate.yy",
+    "name":"Minty Mountain",
+    "path":"folders/Rooms/Stages/Minty Mountain.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

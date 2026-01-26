@@ -3,6 +3,7 @@
 	surf = surface_create(global.window_width, global.window_height);
 	timer = 0;
 	act_card = 1-global.act_transition;
+	if obj_level.challenge act_card = false;
 	
 	//Offset values
 	offset[0] = global.window_height + 32;

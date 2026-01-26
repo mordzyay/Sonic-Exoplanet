@@ -3,6 +3,11 @@ function player_misc(){
 	control_lock = max(control_lock-1, 0);
 	ceiling_lock = max(ceiling_lock-1, 0);
 	
+	if(abs(ground_speed) > 12)
+	{
+			
+	}
+	
 	//Handle player shields
 	if(shield != S_NONE)
 	{

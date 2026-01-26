@@ -2,6 +2,7 @@
 
 	disable_timer = false;
 	badnik_chain = 0;
+	challenge = false;
 	
 	//====================================================//
 	//				 **DEFAULT STAGE SETUP**			  //

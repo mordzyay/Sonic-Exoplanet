@@ -18,4 +18,5 @@
 		
 		//Next level
 		next_level = rm_stage_select;
+		challenge = true;
 	}

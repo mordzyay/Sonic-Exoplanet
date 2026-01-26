@@ -28,6 +28,10 @@
 	//When monitor isn't destroyed
 	if(!destroyed)
 	{
+		if(player_collide_object(C_BOTTOM) && sign(image_yscale) == -1 && upsidefall){
+			collision_flag = true;
+			ground = false;
+		}
 		//Bump the monitor
 		if(player_collide_object(C_TOP) && sign(image_yscale) == 1)
 		{
@@ -80,12 +84,13 @@
 		//Gravity
 		if(!ground) 
 		{
-			y_speed += 0.2;
+			if (fallup) y_speed -= 0.2;
+			if (!fallup) y_speed += 0.2;
 		}
 		
 		
 		//Collision
-		while(collision_instance(0, 1, 0, true, true) && y_speed >= 0)
+		while(collision_instance(0, sign(y_speed), 0, true, true) && y_speed >= 0)
 		{
 			if(!instance_place(x, y, player))
 			{
