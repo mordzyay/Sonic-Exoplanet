@@ -24,3 +24,7 @@
 		
 	//Next level
 	next_level = room;
+	global.roomTT = [
+	["mmz1_A", rm_mmz_A],
+    ["mmz1_B", rm_mmz_B],
+];

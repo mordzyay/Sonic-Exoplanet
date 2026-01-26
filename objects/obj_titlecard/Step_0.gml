@@ -1,4 +1,6 @@
 /// @description Card events
+if(global.timetravelingTo = "")
+{
 	obj_player.input_disable = true
 	
 	//Remove the title card with debug
@@ -60,3 +62,4 @@
 		//End card
 		if(timer = 170) instance_destroy();
 	}
+}
