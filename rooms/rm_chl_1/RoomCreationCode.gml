@@ -5,7 +5,7 @@
 		stage_music = BGM_EEZ;
 		
 		//Set level name
-		stage_name = "ECCENTRIC EVEREST";
+		stage_name = "EGGCENTRIC EVEREST";
 		
 		//Set stage act
 		act = 1;

@@ -5,8 +5,10 @@ sound_sel = 0;
 
 //The lists
 zone_list = [
-    ["ARBOREAL AGATE", rm_arboreal_agate1, rm_arboreal_agate2],
-    ["TEST", rm_test1]
+    ["MINTY MOUNTAIN", rm_mmz_A, rm_mmz_B],
+    ["SAKURA STATION", rm_ssz_A],
+	["CHALLANGES", rm_chl_1, rm_chl2]
+	
 ];
 
 reset_stage_data();

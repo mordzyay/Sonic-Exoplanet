@@ -70,8 +70,8 @@
   ],
   "name":"rm_test1",
   "parent":{
-    "name":"Arboreal Agate",
-    "path":"folders/Rooms/Stages/Arboreal Agate.yy",
+    "name":"Aboreal Egate",
+    "path":"folders/Rooms/Stages/Aboreal Egate.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
