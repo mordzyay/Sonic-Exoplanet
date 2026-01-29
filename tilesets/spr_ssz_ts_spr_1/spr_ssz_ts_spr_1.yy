@@ -1,25 +1,25 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"spr_mmz_ts_2",
+  "%Name":"spr_ssz_ts_spr_1",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"spr_mmz_ts_2",
-  "out_columns":29,
+  "name":"spr_ssz_ts_spr_1",
+  "out_columns":18,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Minty Mountain",
-    "path":"folders/Tile Sets/Minty Mountain.yy",
+    "name":"Sakura Station",
+    "path":"folders/Tile Sets/Sakura Station.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_mmz_ts_spr_2",
-    "path":"sprites/spr_mmz_ts_spr_2/spr_mmz_ts_spr_2.yy",
+    "name":"spr_ssz_ts",
+    "path":"sprites/spr_ssz_ts/spr_ssz_ts.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -34,5 +34,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":820,
+  "tile_count":320,
 }

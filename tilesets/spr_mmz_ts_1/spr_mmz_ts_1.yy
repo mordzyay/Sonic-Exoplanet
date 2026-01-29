@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Minty Mountain Zone",
-    "path":"folders/Sprites/Stage Sprites/Minty Mountain Zone.yy",
+    "name":"Minty Mountain",
+    "path":"folders/Tile Sets/Minty Mountain.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

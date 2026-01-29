@@ -11,13 +11,16 @@ function init_music_list()
 	music_add(BGM_ARBOREAL_2, bgm_arboreal_agate2);
 	music_add(BGM_TEST_1, bgm_test1);
 	music_add(BGM_MMZ_PRESENT,bgm_mmz_present);
-	music_add(BGM_EEZ,bgm_eez);	
 	music_add(BGM_MMZ_PAST,bgm_mmz_past);
+	music_add(BGM_SSZ_PRESENT,bgm_ssz_present);
 	//Game jingles:
 	music_add(J_GAME_OVER, j_game_over, 0.00, 0.00, false);
 	music_add(J_INVINCIBLE, j_invincible, 0.00, 0.00, false);
 	music_add(J_SPEEDSHOE, j_speedshoe, 0.00, 0.00, false);
 	music_add(J_ACT_CLEAR, jingle_zone_complete, 0.00, 0.00, false);
+	//Challange Levels
+	music_add(BGM_EEZ,bgm_eez);	
+	music_add(BGM_MIDNIGHTMZ,bgm_midnightmz);
 }
 
 	//Setup macros for music ID
@@ -35,4 +38,6 @@ function init_music_list()
 	#macro BGM_TITLE 11
 	#macro BGM_EEZ 12
 	#macro BGM_MMZ_PAST 13
+	#macro BGM_MIDNIGHTMZ 14
+	#macro BGM_SSZ_PRESENT 15
 	
