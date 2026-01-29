@@ -6,8 +6,8 @@
   "name":"obj_mmz_platform",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arboreal Agate",
-    "path":"folders/Objects/Stage Objects/Arboreal Agate.yy",
+    "name":"Minty Mountain",
+    "path":"folders/Objects/Stage Objects/Minty Mountain.yy",
   },
   "parentObjectId":{
     "name":"par_moving_platform",
