@@ -3,7 +3,7 @@ function player_animation_list(){
 	{
 		case CHAR_SONIC:
 		animation_add(ANIM_STAND, spr_sonic_idle, 0.2)
-		animation_add(ANIM_WAIT, spr_sonic_wait, 6, 2, true, true);
+		animation_add(ANIM_WAIT, spr_sonic_idle, 0.2)
 		animation_add(ANIM_WALK, spr_sonic_walk, 3, 0, true, true);
 		animation_add(ANIM_RUN, spr_sonic_run, 2, 0, true, true);
 		animation_add(ANIM_MAXRUN, spr_sonic_peelout, 0, 0, true, true);
