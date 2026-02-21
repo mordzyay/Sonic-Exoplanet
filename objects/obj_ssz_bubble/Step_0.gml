@@ -1,6 +1,6 @@
 if (player_collide_object(C_MAIN) && bubblepop == false)
 {
-    if (obj_player.attacking)
+    if (obj_player.state != ST_KNOCKOUT)
     {
         // Play the sound
         play_sound(sfx_bubble_jump);
